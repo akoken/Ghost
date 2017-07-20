@@ -41,7 +41,7 @@ function getAssetUrl(path, hasMinFile) {
     }
 
     // Finally add the asset hash to the output URL
-    output += '?v=' + config.get('assetHash');
+    //output += '?v=' + config.get('assetHash');
 
     return output;
 }
