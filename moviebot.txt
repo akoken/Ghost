@@ -1,0 +1,5 @@
+docker run -d --name moviebot --restart=always \
+-e MOVIE_NAME="Avengers:Endgame" \
+-e MOVIE_URL="https://www.cinemaximum.com.tr/avengers-endgame-filmi" \
+-e SLACK_WEBHOOK_URL="https://hooks.slack.com/services/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" \
+akoken/nebula:latest
